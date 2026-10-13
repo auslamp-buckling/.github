@@ -4,9 +4,10 @@ Research project for 3D lithospheric modelling and buckling. The work is organis
 
 ## Stage 1 — Mesh generation and field mapping
 
-[regional_model_development_V2](https://github.com/auslamp-buckling/regional_model_development_V2) generates georeferenced lithospheric meshes, maps temperature and bulk water content, and checks the resulting mesh and fields. It also includes the existing FEniCSx diffusion workflow.
+This stage prepares georeferenced lithospheric meshes and maps temperature and bulk water content onto them.
 
-Maintained by [Juan F. Giraldo](https://github.com/jfgiraldoa). The repository preserves the code and history of his [published V2 workflow](https://github.com/jfgiraldoa/regional_model_development_V2), including the existing contributor notices and its relationship to V1.
+- [regional_model_development_V1](https://github.com/auslamp-buckling/regional_model_development_V1): original workflow, forked from [the source repository](https://github.com/shaheryar9094/regional_model_development_V1).
+- [regional_model_development_V2](https://github.com/auslamp-buckling/regional_model_development_V2): automated mesh extrusion, field mapping and validation, with the existing FEniCSx diffusion workflow.
 
 ## Stage 2 — Numerical simulators
 
